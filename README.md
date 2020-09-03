@@ -1,2 +1,3 @@
 # stuffy
-Stuff from dotfiles and some sketch.
+
+Stuff from dotfiles and some snippets.
