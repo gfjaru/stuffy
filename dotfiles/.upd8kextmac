@@ -1,0 +1,9 @@
+sudo spctl --master-disable
+sudo mount -uw /
+sudo killall Finder
+sudo chown -v -R root:wheel /System/Library/Extensions
+sudo touch /System/Library/Extensions
+sudo chmod -v -R 755 /Library/Extensions
+sudo chown -v -R root:wheel /Library/Extensions
+sudo touch /Library/Extensions
+sudo kextcache -i /
